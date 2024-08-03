@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper & Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="window-container">
+        <div id="button-container">
+            <!-- Paper button -->
+            <button class="choice-button" onclick="buttonClicked('paper');">
+              <img src="images/paper.png" alt="Paper" class="choice-image paper">
+            </button>
+ 
+            <!-- Rock button -->
+            <button class="choice-button" onclick="buttonClicked('rock');">
+              <img src="images/rock.png" alt="Rock" class="choice-image rock">
+            </button>
+ 
+            <!-- Scissor button -->
+            <button class="choice-button" onclick="buttonClicked('scissor');">
+              <img src="images/scissor.png" alt="Scissors" class="choice-image scissor">
+            </button>
+        </div>
+        <div id="choice-container">
+            <div class="user-choice">
+               <h4>Your Choice</h4>
+            </div>
+            <div class="computer-choice">
+              <h4>Computer Choice</h4>
+            </div>
+        </div>
+        <h4 class="user-status"></h4>
+        <h4 class="computer-status"></h4>
+        <h4 class="score-status"></h4>
+    
+    </div>
+      
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
