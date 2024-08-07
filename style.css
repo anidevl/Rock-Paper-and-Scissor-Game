@@ -76,7 +76,7 @@
     background-position: center;
     background-size: contain;
     border-radius:140px;
-    z-index:100;
+    
 }
 .computer-choice{
     height:100%;
@@ -86,23 +86,25 @@
     background-position: center;
     background-size: contain;
     border-radius:140px;
-    z-index:100;
 }
 .js-paper{
     background-image:url('images/paper.png');
     filter:drop-shadow(10px 10px 100px #01DFBA) drop-shadow(0px 0px 40px #01DFBA);
     border:2px solid #01DFBA;
+    z-index:4;
     
 }
 .js-rock{
     background-image:url('images/rock.png');
     filter:drop-shadow(10px 10px 100px #FE2CF1) drop-shadow(0px 0px 40px #FE2CF1);
     border:2px solid #FE2CF1;
+    z-index:4;
   
 }
 .js-scissor{
     background-image:url('images/scissor.png');
     filter:drop-shadow(10px 10px 100px #0B7CEB) drop-shadow(0px 0px 40px #0B7CEB);
     border:2px solid #0B7CEB;
+    z-index:4;
  
 }
